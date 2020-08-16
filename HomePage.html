@@ -1,0 +1,399 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>BIGPIE | HOME</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+    
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <link rel="stylesheet" href="flickity.css" media="screen">
+    
+    
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style4.css" />
+        <link rel="stylesheet" href="HomePage.css">
+		
+</head>
+    
+    <h1 style="text-align: center;display: flex;justify-content: center; background-color: #ffdb82;margin: 0;height:1.5%;vertical-align: middle;">NavBar</h1>
+    <!--Bubble map-->
+        <div class="maincontainer">
+    
+        <h4>
+            <div style="float:left;">A chronic disease has<br> impacted over 463 <br>million people worldwide.</div>
+            <div style="clear: left;"/>
+        </h4>
+        <div class="mapcontainer" style="float:right;">
+        
+        
+    
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin
+                allow-popups allow-modals allow-forms" frameBorder="0" class="anychart-embed anychart-embed-geo-map"
+                allowtransparency="true" allowfullscreen="true"
+                src="https://playground.anychart.com/templates/geo_map/iframe">
+        </iframe>
+        
+        </div>
+        <!--<h4 style="display: block;align-content: center;">
+            <div style="float:right;">Some Text</div>
+            <div style="clear: left;"/>
+        </h4>-->
+        </div>
+    
+    <!--Bubble chart js-->
+        <script type="text/javascript">
+            (function(){
+        function ac_add_to_head(el){
+            var head = document.getElementsByTagName('head')[0];
+            head.insertBefore(el,head.firstChild);
+        }
+        function ac_add_style(css){
+            var ac_style = document.createElement('style');
+            if (ac_style.styleSheet) ac_style.styleSheet.cssText = css;
+            else ac_style.appendChild(document.createTextNode(css));
+            ac_add_to_head(ac_style);
+        }
+        ac_add_style(".anychart-embed-geo-map{width:600px;height:450px;}");
+        })();
+    </script>
+    
+    
+    
+    <div class="imagetxt">
+        <p>Diabetes: A chronic disease has impacted over 463 million ppl worldwide.</p>
+    </div>
+                                                <!--Image Carousel-->
+    <div class="gallery container">
+
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1, "freeScroll": true, "wrapAround": true,"autoPlay": 2000,"cellSelector": ".carousel-cell"  }'>
+    
+  <div class="static-banner static-banner1">Swipable stats with illustrations</div>
+  <div class="static-banner static-banner2">Making Diabetes Scary!</div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://i.ibb.co/7Vn0c15/stats3.png" />  
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://i.ibb.co/j3L3nGS/stats4.png" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://i.ibb.co/K9RzpRd/stats5.png" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://i.ibb.co/nzpnLnj/stats6.png" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://i.ibb.co/1GrDKmy/stats1.png" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://i.ibb.co/PrPbZ1t/stats2.png" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="Solid.jpg" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://picsum.photos/800/500/?image=1062" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://picsum.photos/720/540/?image=1002" />
+  </div>
+  
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="https://picsum.photos/720/540/?image=855" />
+  </div>
+  
+</div>
+</div>
+                                                <!--Fancy button-->
+    <div class="button container" style="margin-top:10px;">
+        <button class="button" href="#" style="font-size:0.76rem;">
+                Know more
+            <div class="button__horizontal"></div>
+            <div class="button__vertical"></div>
+        </button>
+    </div>
+    
+                                                <!-- Slicebox-->
+    <div class="container">
+
+			<div class="sb-wrapper">
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats1.png" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>...</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats2.png" alt="image2"/></a>
+						<div class="sb-description">
+							<h3>...</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats3.png" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>...</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats4.png" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>...</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats5.png" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>...</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats6.png" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>...</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Placeholder</h3>
+                            <p>aspect ratio 5:3</p>
+						</div>
+					</li>
+				</ul>
+
+				<div id="shadow" class="shadow"></div>
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+			</div><!-- /wrapper -->
+
+			<p class="info"><strong>Diabetes: </strong>A chronic disease has impacted over 463 million ppl worldwide.</p>
+
+		</div>
+        <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+            
+        <!--Script for slidebox-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+    
+        <script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
+    
+    
+    
+                        
+    
+    <!--Typewritter-->
+    
+    <div class="bigpieheading">
+    <h1>The BIG PIE </h1>
+    
+    </div>
+    
+    <div class="description">
+        <p>Since the 1920s, diabetes treatments have depended on expensive and invasive insulin injections.</p>
+        <p> We propose The BIG PIE which intends to tackle diabetes without insulin injections. A cheap, non-invasive alternative to injections. Our project is based on the principle of “transdifferentiation” where we transform one somatic cell type into another type. We intend to reprogram a subset of gut cells into b-islet-like cells, capable of glucose-responsive insulin secretion. This has previously done with viruses. But due to safety and health concerns, we have replaced viral vectors with E.coli Nissle a probiotic bacteria that will serve as our delivery vector.
+        </p>
+    </div>
+    
+    
+    <section class="pre-footer">
+		<ul class="ch-grid">
+		
+        <li>
+			<div class="ch-item">				
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-1"></div>
+                    
+						<div class="ch-info-back">
+							<h3>Description</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>	
+					</div>
+				</div>
+                </div>
+		</li>
+	
+        <li>
+			<div class="ch-item">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-2"></div>
+						<div class="ch-info-back">
+							<h3>Design</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+		
+        <li>
+			<div class="ch-item">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-3"></div>
+						<div class="ch-info-back">
+							<h3>Human Practices<br></h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+            
+        <li>
+			<div class="ch-item">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-4"></div>
+						<div class="ch-info-back">
+							<h3>Parts</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+            
+        <li>
+			<div class="ch-item">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-5"></div>
+						<div class="ch-info-back">
+							<h3>Modelling</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+            
+        <li>
+			<div class="ch-item">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-6"></div>
+						<div class="ch-info-back">
+							<h3 style="font-size:0.7rem;">Entrepreneurship</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+            
+        <li>
+			<div class="ch-item">
+				<div class="ch-info-wrap" >
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-7" ></div>
+						<div class="ch-info-back">
+							<h3>Safety</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+            
+        <li>
+			<div class="ch-item ">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-8"></div>
+						<div class="ch-info-back">
+							<h3>Patent<br> Law</h3>
+							<p>Read More...<a href="#">...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+            
+	
+    </ul>
+				
+	</section>
+    
+    <h5 style="margin-top: 10px;background-color: #000;color: white;">Footer</h5>
+    
+    
+
+    
+    
+<body>
+    <script src="flickity.pkgd.min.js"></script>
+    <script src="HomePage.js"></script>
+</body>
+</html>
