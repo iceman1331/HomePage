@@ -20,6 +20,24 @@
 		
 </head>
     
+   <body> 
+    
+      <div class="loader">
+        <img src="simple_dna.gif" >
+    </div>
+    
+
+    
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; // new class = "loader hidden"
+        });
+    </script>
+    
+    
+    
+    
     <h1 style="text-align: center;display: flex;justify-content: center; background-color: #ffdb82;margin: 0;height:1.5%;vertical-align: middle;">NavBar</h1>
     <!--Bubble map-->
         <div class="maincontainer">
@@ -392,7 +410,7 @@
 
     
     
-<body>
+
     <script src="flickity.pkgd.min.js"></script>
     <script src="HomePage.js"></script>
 </body>
