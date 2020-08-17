@@ -12,19 +12,20 @@
     
     <link rel="stylesheet" href="flickity.css" media="screen">
     
-    
-		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="style4.css" />
         <link rel="stylesheet" href="HomePage.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="style4.css" />
+       
 		
 </head>
     
    <body> 
     
       <div class="loader">
-        <img style="height:300px;width:400;" src="simple_dna.gif" >
-    </div>
+            <img style="height: auto;" src="simple_dna.gif" >
+        </div>
+       
+       
     
 
     
@@ -40,10 +41,10 @@
     <h1 style="text-align: center;display: flex;justify-content: center; background-color: #ffdb82;margin: 0;height:1.5%;vertical-align: middle;">NavBar</h1>
     <!--Bubble map-->
        
-       <div class="logo-container">
-            <img src="BIGPIE.png" style="height:675px;width:1200px;">
-        </div>
        
+       <div class="logo-container">
+       <img style="width:100%;" src="BIGPIE.jpg">
+       </div>
        
        <div class="maincontainer">
     
@@ -54,13 +55,13 @@
         <div class="mapcontainer" style="float:right;">
         
         
-    
+    <!--
         <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin
                 allow-popups allow-modals allow-forms" frameBorder="0" class="anychart-embed anychart-embed-geo-map"
                 allowtransparency="true" allowfullscreen="true"
                 src="https://playground.anychart.com/templates/geo_map/iframe">
         </iframe>
-        
+    -->
         </div>
         <!--<h4 style="display: block;align-content: center;">
             <div style="float:right;">Some Text</div>
@@ -153,125 +154,9 @@
     </div>
     
                                                 <!-- Slicebox-->
-    <div class="container">
-
-			<div class="sb-wrapper">
-				<ul id="sb-slider" class="sb-slider">
-					<li>
-						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats1.png" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>...</h3>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats2.png" alt="image2"/></a>
-						<div class="sb-description">
-							<h3>...</h3>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats3.png" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>...</h3>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats4.png" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>...</h3>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats5.png" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>...</h3>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank"><img style="height:75%;width:75%;" src="images/stats6.png" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>...</h3>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Placeholder</h3>
-                            <p>aspect ratio 5:3</p>
-						</div>
-					</li>
-				</ul>
-
-				<div id="shadow" class="shadow"></div>
-
-				<div id="nav-arrows" class="nav-arrows">
-					<a href="#">Next</a>
-					<a href="#">Previous</a>
-				</div>
-
-			</div><!-- /wrapper -->
-
-			<p class="info"><strong>Diabetes: </strong>A chronic disease has impacted over 463 million ppl worldwide.</p>
-
-		</div>
-        <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
-            
-        <!--Script for slidebox-->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+  
     
-        <script type="text/javascript">
-			$(function() {
-				
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-
-								$navArrows.show();
-								$shadow.show();
-
-							},
-							orientation : 'r',
-							cuboidsRandom : true
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-								
-								slicebox.previous();
-								return false;
-
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
-		</script>
-    
-    
+        
     
                         
     

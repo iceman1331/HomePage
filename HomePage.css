@@ -3,8 +3,12 @@ body{
 }
 .logo-container{
     display: block;
+    width:85%;
     margin: auto;
     text-align: center;
+}
+.logo-container img{
+    
 }
 .maincontainer{
     align-content: center;
@@ -240,9 +244,10 @@ h5{
 
 
     .thumb {
-        height: 300px;
+        height: auto;
         border: 1px solid black;
-        margin: 10px;
+        margin: auto;
+        display: flex;
         align-self: center ;
     }
     
@@ -259,6 +264,11 @@ h5{
         background-color: #292929;
         transform-origin: center ;
     }
+    
+.loader.img{
+    height: auto;
+    width:auto;
+}
     
     .loader.hidden {
         animation: fadeout 1.5s;
