@@ -48,7 +48,8 @@ h5{
 }
                                                         /*Carousel*/
 .gallery.container{
-    width: 60%;
+    width:60%;
+    
     margin: auto;
     display: block;
     padding-bottom: 0;
@@ -118,7 +119,7 @@ h5{
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: white;
+  background: grey;
 }
 
 .button.container{
